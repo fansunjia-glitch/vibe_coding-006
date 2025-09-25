@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pydantic
+python-multipart
+pyyaml
+openai==0.28
+python-dotenv
+Jinja2
+    
