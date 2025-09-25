@@ -65,5 +65,4 @@ def load_config(config_path: str) -> Config:
         return Config()
 
 
-# 加载配置单例
 config = load_config("config.yaml")

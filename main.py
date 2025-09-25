@@ -63,7 +63,6 @@ async def parse_and_decide(request: TextRequest):
         raise HTTPException(status_code=500, detail=f"处理请求时出错: {str(e)}")
 
 
-# 启动服务
 if __name__ == "__main__":
     uvicorn.run(
         "main:app",
